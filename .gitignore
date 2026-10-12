@@ -1,0 +1,14 @@
+.env
+.env.*
+*.pem
+*.key
+key.json
+/results/
+/build/
+/.venv/
+/.codex/
+/.claude/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store

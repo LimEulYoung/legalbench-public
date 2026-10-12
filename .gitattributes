@@ -1,0 +1,4 @@
+# 원본 문서는 바이너리로 보관한다.
+*.pdf binary
+*.hwpx binary
+*.xlsx binary

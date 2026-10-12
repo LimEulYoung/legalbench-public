@@ -1,0 +1,35 @@
+meta:
+  id: r1-public
+  exam: 공개 실행 예제
+  subject: 공법
+  version: '1.0-demo'
+  total: 2
+  reviewed_by: synthetic-fixture
+  guidelines: rules.md
+  reference_guide: reference.md
+  grading_rules:
+    - 기록의 운영 시간과 휴관일만 평가한다.
+documents:
+  - id: D
+    title: 안내문
+    points: 2
+    issues:
+      - id: I
+        title: 운영 안내
+        points: 2
+        sections:
+          - title: 내용
+            points: 2
+            items:
+              - id: I-1
+                points: 1
+                criterion: 오전 9시부터 오후 6시까지 운영한다고 쓴다.
+                scoring:
+                  1: 두 시각이 모두 맞다.
+                  0: 시각이 빠지거나 틀리다.
+              - id: I-2
+                points: 1
+                criterion: 월요일에 휴관한다고 쓴다.
+                scoring:
+                  1: 월요일 휴관을 알린다.
+                  0: 휴관일이 빠지거나 틀리다.
